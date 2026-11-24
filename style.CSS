@@ -1,0 +1,167 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Georgia, serif;
+    color: #333;
+}
+
+/* Navbar */
+.logo {
+    font-size: 25px;
+    font-weight: bold;
+    letter-spacing: 3px;
+    color: #a77b35;
+}
+
+.nav-link {
+    margin: 0 12px;
+    color: #333;
+}
+
+.nav-link:hover {
+    color: #b58a45;
+}
+
+/* Gold Button */
+.gold-btn {
+    background-color: #b58a45;
+    color: white;
+    border: none;
+    padding: 12px 25px;
+    border-radius: 0;
+}
+
+.gold-btn:hover {
+    background-color: #8e672d;
+    color: white;
+}
+
+/* Hero */
+.hero {
+    background-color: #f8f3eb;
+    padding: 80px 0;
+}
+
+.subtitle {
+    color: #b58a45;
+    letter-spacing: 3px;
+    font-size: 13px;
+}
+
+.hero h1 {
+    font-size: 55px;
+    font-weight: bold;
+    line-height: 1.2;
+}
+
+.hero h1 span {
+    color: #b58a45;
+    display: block;
+}
+
+.hero-text {
+    color: #777;
+    margin: 20px 0;
+    line-height: 1.8;
+}
+
+.hero-img {
+    width: 100%;
+    height: 430px;
+    object-fit: cover;
+}
+
+/* Section Headings */
+.section-heading h2 {
+    font-size: 38px;
+    margin-top: 10px;
+}
+
+/* Categories */
+.category-card {
+    text-align: center;
+}
+
+.category-card img {
+    width: 100%;
+    height: 230px;
+    object-fit: cover;
+}
+
+.category-card h5 {
+    margin-top: 15px;
+}
+
+/* Products */
+.products-section {
+    background-color: #f8f3eb;
+}
+
+.product-card {
+    background-color: white;
+    text-align: center;
+    padding-bottom: 25px;
+}
+
+.product-card img {
+    width: 100%;
+    height: 300px;
+    object-fit: cover;
+}
+
+.product-card h5 {
+    margin-top: 20px;
+}
+
+.product-card p {
+    color: #b58a45;
+    font-weight: bold;
+}
+
+/* About */
+.about-img {
+    width: 100%;
+    height: 350px;
+    object-fit: cover;
+}
+
+/* Footer */
+footer {
+    background-color: #28231d;
+    color: white;
+}
+
+footer .logo {
+    color: #d4ad70;
+}
+
+footer i {
+    margin: 10px;
+    font-size: 20px;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+
+    .hero {
+        padding: 45px 0;
+    }
+
+    .hero h1 {
+        font-size: 38px;
+    }
+
+    .hero-img {
+        height: 300px;
+        margin-top: 30px;
+    }
+
+    .section-heading h2 {
+        font-size: 30px;
+    }
+}
